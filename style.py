@@ -52,7 +52,7 @@ header {
 
 .hero{
 
-    background: linear-gradient(135deg, #111827, #1E3A8A);
+    background: linear-gradient(90deg,#2563EB,#4F46E5);
 
     padding:35px;
 
