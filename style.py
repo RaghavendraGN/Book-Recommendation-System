@@ -26,11 +26,9 @@ footer {
     visibility: hidden;
 }
 
-/*
 header {
     visibility: hidden;
 }
-*/
 
 /* ------------------------------------------------ */
 /* Main Page */
@@ -52,7 +50,7 @@ header {
 
 .hero{
 
-    background: linear-gradient(90deg,#2563EB,#4F46E5);
+    background:linear-gradient(90deg,#2563EB,#4F46E5);
 
     padding:35px;
 
@@ -319,4 +317,5 @@ hr{
 </style>
 """,
         unsafe_allow_html=True
+    )
     )
