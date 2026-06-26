@@ -26,9 +26,11 @@ footer {
     visibility: hidden;
 }
 
+/*
 header {
     visibility: hidden;
 }
+*/
 
 /* ------------------------------------------------ */
 /* Main Page */
