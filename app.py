@@ -89,17 +89,16 @@ interaction patterns.
 if page == "🏠 Home":
 
     st.markdown(
-        """
-        <div class='hero'>
-            <h1>📚 AI-Powered Book Recommendation System</h1>
-
-            <p>
-            Discover books you'll love using
-            Machine Learning and
-            Singular Value Decomposition (SVD).
-            </p>
-        </div>
-        """,
+"""
+<div class='hero'>
+<h1>📚 AI-Powered Book Recommendation System</h1>
+<p>
+Discover books you'll love using
+Machine Learning and
+Singular Value Decomposition (SVD).
+</p>
+</div>
+""",
         unsafe_allow_html=True
     )
 
@@ -112,51 +111,47 @@ if page == "🏠 Home":
     with c1:
 
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-title'>
-                    👥 Users
-                </div>
-
-                <div class='metric-value'>
-                    {metrics["Users"]:,}
-                </div>
-            </div>
-            """,
+f"""
+<div class='metric-card'>
+<div class='metric-title'>
+👥 Users
+</div>
+<div class='metric-value'>
+{metrics["Users"]:,}
+</div>
+</div>
+""",
             unsafe_allow_html=True
         )
-
     with c2:
 
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-title'>
-                    📚 Books
-                </div>
-
-                <div class='metric-value'>
-                    {metrics["Books"]:,}
-                </div>
-            </div>
-            """,
+f"""
+<div class='metric-card'>
+<div class='metric-title'>
+📚 Books
+</div>
+<div class='metric-value'>
+{metrics["Books"]:,}
+</div>
+</div>
+""",
             unsafe_allow_html=True
         )
 
     with c3:
 
         st.markdown(
-            f"""
-            <div class='metric-card'>
-                <div class='metric-title'>
-                    ⭐ Ratings
-                </div>
-
-                <div class='metric-value'>
-                    {metrics["Ratings"]:,}
-                </div>
-            </div>
-            """,
+f"""
+<div class='metric-card'>
+<div class='metric-title'>
+⭐ Ratings
+</div>
+<div class='metric-value'>
+{metrics["Ratings"]:,}
+</div>
+</div>
+""",
             unsafe_allow_html=True
         )
 
