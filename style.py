@@ -18,9 +18,11 @@ def load_css():
 /* Hide Streamlit Default Elements */
 /* ------------------------------------------------ */
 
+/*
 #MainMenu {
     visibility: hidden;
 }
+*/
 
 footer {
     visibility: hidden;
