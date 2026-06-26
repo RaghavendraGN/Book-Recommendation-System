@@ -38,7 +38,7 @@ header {
 
 .stApp{
 
-    background:#f5f6f7;
+    background:#F4F7FB;
 
     color:#222222;
 
