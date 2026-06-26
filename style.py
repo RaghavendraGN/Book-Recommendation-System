@@ -38,7 +38,7 @@ header {
 
 .stApp{
 
-    background:#161617;
+    background:#f5f6f7;
 
     color:#222222;
 
@@ -134,7 +134,7 @@ header {
 
 .book-card{
 
-    background:black;
+    background:white;
 
     border-radius:15px;
 
